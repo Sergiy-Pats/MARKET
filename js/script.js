@@ -24,6 +24,8 @@ jQuery('document').ready(function () {
 
 	$('.tabs').on("swiperight", function (event) {
 		$('.sidebar').addClass('show');
+		console.log('123123');
+
 	});
 	$('.tabs').on("swipeleft", function (event) {
 		$('.sidebar').removeClass('show');
