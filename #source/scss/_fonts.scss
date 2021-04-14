@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "SegoeWP";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/SegoeWP.woff") format("woff");
+}
+@font-face {
+	font-family: "Helvetica_300";
+	src: url("../fonts/HelveticaLTStd-Light.eot");
+	src: url("../fonts/HelveticaLTStd-Light.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/HelveticaLTStd-Light.woff") format("woff"),
+		url("../fonts/HelveticaLTStd-Light.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Helvetica_400";
+	src: url("../fonts/HelveticaLTStd-Roman.eot");
+	src: url("../fonts/HelveticaLTStd-Roman.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/HelveticaLTStd-Roman.woff") format("woff"),
+		url("../fonts/HelveticaLTStd-Roman.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}

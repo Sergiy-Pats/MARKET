@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Books Online</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://kit.fontawesome.com/7b2244a88d.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="/js/jquery.mobile.custom.min.js"></script>
+	<script src="/js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__body container">
+					<a href="" class="account-link"><span>Sign <span class="del">in</span></span></a>
+					<a href="" class="account-link"><span><span class="del">My</span> Account</span></a>
+					<a href="" class="account-link"><span>Order <span class="del">Status</span></span></a>
+					<a href="" class="account-link"><span>Help</span></a>
+				</div>
+			</div>
+			<div class="header__main main-header">
+				<div class="main-header__body container">
+					<a href="/" class="main-header__logo logo">
+						<img src="/img/logo.png" alt="logo">
+					</a>
+					<div class="main-header__search-form search-form">
+						<input type="text" class="search-form__input">
+						<a href="" class="search-form__button"><i class="fas fa-search"></i><span>Search</span></a>
+					</div>
+					<div class="main-header__cart cart">
+						<div class="cart-left ">
+							<a class='cart-left__top' href=""><i class="fas fa-shopping-cart"></i>Your cart <span>(2
+									items)</span></a><br>
+							<span class="price" id="cart-price">$125.0</span> <a class="cart-left__button" href="">Checkout</a>
+						</div>
+						<div class="cart-right">
+							<img src="/img/icon/star.png" alt="star.png" loading='lazy' class="cart-right__icon">
+
+							<a class="cart-right__link" href="">Wish list<p class="count"><span>20</span></p></a>
+						</div>
+					</div>
+					<div class="main-header__burger burger">
+						<span></span>
+					</div>
+
+				</div>
+
+
+
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container container bottom-body">
+					<div id="bottom-menu" class="bottom-body__menu">
+						<a href="#" class="bottom-body__item">Computers</a>
+						<a href="#" class="bottom-body__item">Cooking</a>
+						<a href="#" class="bottom-body__item">Education</a>
+						<a href="#" class="bottom-body__item">Fiction</a>
+						<a href="#" class="bottom-body__item">Health</a>
+						<a href="#" class="bottom-body__item">Mathematics</a>
+						<a href="#" class="bottom-body__item">Medical</a>
+						<a href="#" class="bottom-body__item">Reference</a>
+						<a href="#" class="bottom-body__item">Science</a>
+					</div>
+					<a id="bottom-button" href="#bottom-menu" class="bottom-body__button">
+						<span>^</span>
+					</a>
+
+
+				</div>
+
+			</div>
+		</header>
+		<div class="banner">
+			<div class="banner__body container">
+				<div class="slider">
+					<a href="#" class="slider__item item-slider" style="background: url(/img/book1_dsk.png) 160px 75% /143px 108px no-repeat,
+						url(/img/book1_sldr.jpg) 55px center / 149px 228px no-repeat ,
+						url(/img/slider_filter.png)0 0 /100% 100%, 
+						url(/img/slider_bg.jpg)center 0 /cover;
+						">
+						<div class="item-slider__text-body">
+							<div class="item-slider__title">A Wanted Man <br>
+								<span>(Jack Reacher #17)</span>
+							</div>
+							<div class="item-slider__author">By Lee Child</div>
+						</div>
+
+					</a>
+					<a href="#" class="slider__item item-slider" style="background: url(/img/book1_dsk.png) 160px 75% /143px 108px no-repeat,
+						url(/img/book1_sldr.jpg) 55px center / 149px 228px no-repeat ,
+						url(/img/slider_filter.png)0 0 /100% 100%, 
+						url(/img/slider_bg.jpg)center 0 /cover;
+						">
+						<div class="item-slider__text-body">
+							<div class="item-slider__title">A Wanted Man <br>
+								<span>(Jack Reacher #17)</span>
+							</div>
+							<div class="item-slider__author">By Lee Child</div>
+						</div>
+
+					</a>
+
+
+
+				</div>
+				<div class="deal">
+					<div class="deal__title">Deal of the Month</div>
+					<div class="deal__book-name">The Human Face of Big Data</div>
+					<div class="deal__book-image"><img src="/img/book_image.jpg" alt=""></div>
+					<div class="deal__save">Save <span>45</span>% Today</div>
+					<div class="deal__price">$<span>27.50</span></div>
+					<a href="#" class="deal__buy-button"><span>Buy now</span></a>
+				</div>
+			</div>
+
+		</div>
+		<div class="content">
+			<div class="content-body container">
+				<div class="sidebar">
+					<div class="sidebar-body">
+						<div class="sidebar__title">Categories</div>
+						<div class="categories-section">
+							<div class="category active">ALL</div>
+						</div>
+						<div class="categories-section">
+							<div class="categories-section__title">Fiction & Literature</div>
+							<div class="category">Children</div>
+							<div class="category">Science Fiction</div>
+							<div class="category">Fantasy</div>
+							<div class="category">Mystery</div>
+							<div class="category">Romance</div>
+							<div class="category">Horror</div>
+							<div class="category">Poetry</div>
+							<div class="category">Literature</div>
+							<div class="category">Crime</div>
+						</div>
+						<div class="categories-section">
+							<div class="categories-section__title">Non - Fiction</div>
+							<div class="category">Comic</div>
+							<div class="category">Cook</div>
+							<div class="category">Psychology</div>
+							<div class="category">Medical</div>
+							<div class="category">Art</div>
+							<div class="category">Photography</div>
+							<div class="category">Law</div>
+							<div class="category">History</div>
+							<div class="category">Business</div>
+							<div class="category">Computer</div>
+						</div>
+						<div class="categories-section">
+							<div class="categories-section__title">Other</div>
+							<div class="category">Baby</div>
+							<div class="category">Sex</div>
+							<div class="category">Travel</div>
+							<div class="category">Science</div>
+							<div class="category">Sports</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="tabs">
+					<div class="tabs__filters">
+						<div class="tabs__filter active">Best sellers</div>
+						<div class="tabs__filter">New Arrivals</div>
+						<div class="tabs__filter">Used Books</div>
+						<div class="tabs__filter">Special Offers</div>
+					</div>
+					<div class="tabs__items">
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+						<a href="/product_page.html#info" class="tabs__item">
+							<div class="tabs__book">
+								<img src="img/book_1.jpg" loading='lazy' alt="">
+							</div>
+							<div class="tabs__book-name">The Hare With
+								Amber Eyes</div>
+							<div class="tabs__book-price">$50</div>
+						</a>
+
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		<footer class="footer">
+			<div class="footer__body container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__text">
+						We accept all major Credit Card/Debit Card/Internet Banking
+					</div>
+					<div class="top-footer__cards">
+						<a href="#" class="top-footer__card">
+							<img src="/img/icon/mascard.jpg" alt="">
+						</a>
+						<a href="#" class="top-footer__card">
+							<img src="/img/icon/amexpr.jpg" alt="">
+						</a>
+						<a href="#" class="top-footer__card">
+							<img src="/img/icon/visa.jpg" alt="">
+						</a>
+					</div>
+
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__text">Conditions of Use Privacy Notice © 2012-2013, Booksonline, Inc. or its
+						affiliates</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+</body>
+
+
+</html>
